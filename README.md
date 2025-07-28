@@ -1,5 +1,13 @@
 # FLL2025-UNEARTHED
 
+1. Install Visual Studio: [link](https://code.visualstudio.com/)
+2. Install Python 3: [link](https://www.python.org/downloads/)
+
+   - Make sure to add the path to Windows
+
+3. Install Git: [link](https://git-scm.com/downloads)
+4. Create and login to Github:
+
 ## Getting Started with Pybricks Python for Spike Prime
 
 This guide will help you set up your development environment on Windows using Visual Studio Code (VS Code) and Python, and connect to the LEGO Spike Prime hub using Pybricks.

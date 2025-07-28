@@ -1,0 +1,5 @@
+# This file is used to specify the dependencies for the project.
+# Use `pip install -r requirements.txt` to install them.
+black
+pybricks
+pybricksdev
