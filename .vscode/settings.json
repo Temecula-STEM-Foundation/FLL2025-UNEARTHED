@@ -1,3 +1,12 @@
 {
-  "python.defaultInterpreterPath": ""
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "workbench.editor.wrapTabs": true,
+  "editor.rulers": [80],
+  "black-formatter.args": ["--line-length", "80"],
+  "editor.minimap.maxColumn": 40
 }

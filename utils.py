@@ -193,7 +193,7 @@ def get_battery_percentage(voltage_mv: int) -> int:
 
     # Calculate the percentage
     percentage = (
-            (clamped_voltage - empty_voltage) / (full_voltage - empty_voltage) * 100
+        (clamped_voltage - empty_voltage) / (full_voltage - empty_voltage) * 100
     )
 
     return int(round(percentage))

@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "streetsidesoftware.code-spell-checker",
+    "vscode-icons-team.vscode-icons",
+    "google.geminicodeassist",
+    "github.copilot",
+    "ms-python.debugpy",
+    "tomoki1207.pdf"
+  ]
+}

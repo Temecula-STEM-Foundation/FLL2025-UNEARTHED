@@ -8,7 +8,9 @@ from pybricks.robotics import DriveBase
 from utils import get_battery_percentage
 
 WHEEL_DIAMETER = 56  # mm
-AXLE_TRACK = 150  # Distance between the points where both wheels touch the ground, mm
+AXLE_TRACK = (
+    150  # Distance between the points where both wheels touch the ground, mm
+)
 
 SENSOR_COLOR = 56
 STRAIGHT_SPEED = 400
@@ -34,8 +36,12 @@ class BaseRobot:
 
         self.right_wheel = Motor(Port.A, Direction.COUNTERCLOCKWISE)
         self.left_wheel = Motor(Port.E, Direction.CLOCKWISE)
-        self.drive_base = DriveBase(self.left_wheel, self.right_wheel, WHEEL_DIAMETER, AXLE_TRACK)
-        self.drive_base.settings(STRAIGHT_SPEED, STRAIGHT_ACCEL, TURN_RATE, TURN_ACCEL)
+        self.drive_base = DriveBase(
+            self.left_wheel, self.right_wheel, WHEEL_DIAMETER, AXLE_TRACK
+        )
+        self.drive_base.settings(
+            STRAIGHT_SPEED, STRAIGHT_ACCEL, TURN_RATE, TURN_ACCEL
+        )
 
         self.right_motor = Motor(Port.B, Direction.CLOCKWISE)
         self.left_motor = Motor(Port.F, Direction.COUNTERCLOCKWISE)
